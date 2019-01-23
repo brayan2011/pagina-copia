@@ -1265,7 +1265,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #0101DF;
+    color: #0277bd;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1532,7 +1532,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #0101DF;
+    color: #000000;
 }
 
 .header-nav p {
@@ -2449,7 +2449,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #0101DF;
+    color: #0277bd;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2544,7 +2544,7 @@ html.no-csstransitions .home-content__main {
 
 .s-works .intro-wrap {
     padding: 15rem 0 25.2rem;
-    background: #00ccff;
+    background: #cbd6db;
 }
 
 .works-content {
@@ -3055,6 +3055,14 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
+.letranegra{
+    font-size: 5rem;
+    
+    color: #000000;
+
+
+}
+
 .contact-content h3 {
     margin-top: 0;
     margin-bottom: 6.6rem;
@@ -3063,7 +3071,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #0101DF;
+    color: #0277bd;
 }
 
 .contact-content input[type="email"],
@@ -3090,7 +3098,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #0101DF;
+    border-bottom: 1px solid #0277bd;
 }
 
 .contact-content button,
