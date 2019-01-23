@@ -1,0 +1,6 @@
+runtime: nodejs8
+
+handlers:
+  - url: /.well-known/acme-challenge/fUtXU59Y2-fjUHKpN5RPlyZDuS6VYxIhc4J9o4iBbWs
+    static_files: well-known/acme-challenge/fUtXU59Y2-fjUHKpN5RPlyZDuS6VYxIhc4J9o4iBbWs
+    upload: well-known/acme-challenge/(.*)

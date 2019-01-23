@@ -1,0 +1,23 @@
+{
+  "name": "pagina_beitlab",
+  "version": "1.0.0",
+  "description": "página principal beitlab",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/.",
+    "dev": "nodemon src/."
+  },
+  "keywords": [
+    "js",
+    "aprendiendo"
+  ],
+  "author": "Beitlab",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
