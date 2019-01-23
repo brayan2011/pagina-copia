@@ -70,7 +70,7 @@ html {
     background-size: cover;
     background-position: 50% 50%;
     z-index: 0;
-    background-color: #02bd0b;
+    background-color: #0277bd;
 }
 
 #prime{
@@ -1240,7 +1240,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-1--light {
-    color: #FFFFFF;
+    color: #0277bd;
 }
 
 .display-2 {
@@ -1815,7 +1815,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h2 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 3rem;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: .3rem;
     position: relative;
@@ -2244,8 +2244,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color:#00ccff ;
-    color: #cbd6db; 
+    background-color:#e3e4e5 ;
+    color: #d1cbdb; 
     position: relative;
 }
 
@@ -2285,7 +2285,7 @@ html.no-csstransitions .home-content__main {
     font-family: "montserrat-bold", sans-serif;
     font-size: 8.4rem;
     line-height: 1;
-    color: #FFFFFF;
+    color: #0277bd;
     position: relative;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -3058,7 +3058,7 @@ html.no-csstransitions .home-content__main {
 .contact-content h3 {
     margin-top: 0;
     margin-bottom: 6.6rem;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .contact-content h5 {
