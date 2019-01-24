@@ -10,8 +10,8 @@ router.get('/', (req,res)=>{
     res.render('index',{title:'BeitLab'})
 })
 
-router.get('/AI', (req,res)=>{
-    res.render('IA')
+router.get('/demo1', (req,res)=>{
+    res.render('demo1')
 })
 
 router.get('/:otro',(req,res)=>{
