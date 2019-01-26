@@ -15,7 +15,8 @@ app.set('view engine','ejs')
 app.use(express.static(path.join(__dirname,'public')))
 
 //rutas
-app.use(require('./routes'))
+app.use('/Demos/',require('./routes/demos.routes'))
+app.use('/',require('./routes/general.routes'))
 
 module.exports = server
 
