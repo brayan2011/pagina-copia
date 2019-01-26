@@ -1,17 +1,13 @@
 'use strict'
 
 //Declaración de dependencias
-const express = require('express')
-const router = express.Router()
-const path = require('path')
+const express = require('express');
+const router = express.Router();
+const path = require('path');
 
 //Rutas
 router.get('/', (req,res)=>{
-    res.render('index',{title:'BeitLab'})
-})
-
-router.get('/demo1', (req,res)=>{
-    res.render('demo1')
+    res.render('index',{title:'BeitLab'});
 })
 
 router.get('/:otro',(req,res)=>{
