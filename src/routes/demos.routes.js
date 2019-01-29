@@ -10,8 +10,8 @@ router.get('/', (req,res)=>{
     res.render('Demos',{title:'Demos públicos'})
 })
 
-router.get('/demo1', (req,res)=>{
-    res.render('demo1',{title:"Demo 1 CocoSd"})
+router.get('/:demo', (req,res)=>{
+    res.render('demos',{title : `${req.params.demo}`})
 })
 
 router.get('/:otro',(req,res)=>{

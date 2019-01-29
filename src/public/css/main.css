@@ -1,7 +1,5 @@
 /* =================================================================== 
- * #39b54a
- *  Glint v1.0 Main Stylesheet
- *  11-20-2017
+ * Beitlab Main Stylesheet
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -3652,7 +3650,21 @@ footer .row {
     }
 }
 
+
+
+/*Demos*/
+
+.Demo{
+    top : 200px;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+
 /* cambios /*
+
+
 
 
 

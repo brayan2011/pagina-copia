@@ -28,7 +28,7 @@ class App extends React.Component {
           });
         });
       const modelPromise = cocoSsd.load();
-      console.log('Modelo cargado y listo')
+      console.log('Modelo cargado y listo');
       Promise.all([modelPromise, webCamPromise])
         .then(values => {
           this.detectFrame(this.videoRef.current, values[0]);
@@ -84,6 +84,7 @@ class App extends React.Component {
     return (
       <div>
         <video
+          className="style"
           autoPlay
           playsInline
           muted
@@ -92,9 +93,10 @@ class App extends React.Component {
           height="500"
         />
         <canvas
+          className="style"
           ref={this.canvasRef}
           width="600"
-          height="500"
+          height="450"
         />  
       </div>
     );
